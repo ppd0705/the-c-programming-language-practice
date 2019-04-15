@@ -136,7 +136,6 @@ double pop(void)
 
 int gettop(char s[])
 {
-    sleep(3);
     int i, c;
     if (line[li] == '\0') {
         if (get_line(line, MAXLINE) == 0)

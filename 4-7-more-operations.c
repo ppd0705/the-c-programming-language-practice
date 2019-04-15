@@ -175,7 +175,7 @@ int gettop(char s[])
 int getch(void)
 {
     int c;
-    if buf != 0
+    if (buf != 0)
         c = buf;
     else
         c = getchar();
