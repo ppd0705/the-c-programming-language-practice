@@ -29,6 +29,6 @@ void strcp(char *s, char *t)
 
 void strcp(char *s, char *t)
 {
-    while (*s++ = *t++)
+    while ((*s++ = *t++))
         ;
 }
